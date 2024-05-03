@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_HOST} ^(?:www\.)oldsite\.com$ [NC]
+RewriteRule ^https://newsite.com%{REQUEST_URI} [L,R=301]
